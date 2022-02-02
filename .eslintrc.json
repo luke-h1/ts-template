@@ -15,21 +15,7 @@
     "prettier/prettier": ["error"],
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "prefer-rest-params": "off",
-    "import/order": [
-      "error",
-      {
-        "groups": [
-          ["builtin", "external", "internal"],
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "alphabetize": {
-          "order": "asc"
-        }
-      }
-    ]
+    "prefer-rest-params": "off"
   },
   "overrides": [
     {
